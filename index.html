@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hangman</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>
+                Hangman: Geography Edition
+            </h1>
+            <!-- TODO: add this functionality
+            <h2>Press any key to start</h2> -->
+        </div>
+
+        <div id="theme-buttons" class="container">
+            <p class="theme-prompt">Please choose a theme for your secret word:</p>
+        </div>
+
+        <div class="container">
+            <div id="buttons"></div>
+
+            <div id="hold"></div>
+
+            <div class="div">
+                <p id="my-lives"></p>
+            </div>
+
+            <div class="div" id="already-guessed"></div>
+
+            <div class="div" id="reset"></div>
+        </div>
+
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    </body>
+</html>
