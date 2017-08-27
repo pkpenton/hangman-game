@@ -2,8 +2,10 @@
 // TODO: keep score (play again vs. start over button)
 
 // TODO: add warning to "play Again" button
-// TODO: show the secret word when you lose
 // TODO: make buttons uppercase
+
+// TODO: user can keep guess after they lost, fix that
+// TODO: only show wrong letters guessed
 
 // TODO: add animations (maybe a balloon pop)
 
@@ -204,7 +206,7 @@ window.onload = function() {
     function comments() {
         showLives.innerHTML = 'Number of guesses remaining: ' + lives;
         if (lives < 1) {
-            showLives.innerHTML = 'Game Over';
+            showLives.innerHTML = ('Game Over!<br>Your secret word was: ' + secretWord);
         };
         for (var i = 0; i < guesses.length; i++) {
             if (counter + spacesInSecretWord === guesses.length) {
