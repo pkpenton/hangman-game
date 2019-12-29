@@ -1,2 +1,2 @@
 # hangman-game
-UCBE Bootcamp Assignment 3: Javascript
+Hangman with US States and State Capitals
